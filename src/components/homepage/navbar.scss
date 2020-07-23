@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    height: 2rem;
+    width: 100%;
+}
+
+.navbar__btns {
+    display: flex;
+    flex-direction: row;
+    height: 2rem;
+    width: 100%;
+}
+
+.navbar__btns-home {
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 6rem;
+}
+.navbar__btns-main {
+    margin-left: 30rem;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#home {
+    font-family: 'Roboto';
+    font-size: 2rem;
+}
